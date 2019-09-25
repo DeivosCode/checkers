@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.board {
+    border: 10px double dodgerblue;
+    width: 40%;
+    position: absolute;
+    top: 60px;
+}
+
+.checkers-board {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.box-black {
+    background-color: rgb(86, 205, 241);
+    position: relative;
+    width: calc(100%/8);
+    padding-bottom: calc(100%/8);
+    display: flex;
+    justify-content: center;
+}
+
+.box-white {
+    background-color: #fff;
+    position: relative;
+    width: calc(100%/8);
+    padding-bottom: calc(100%/8);
+}
+
+.checkers {
+    position: absolute;
+    z-index: 1;
+    top: 7.5px;
+    /* left: 0; */
+    width: 80%;
+}
