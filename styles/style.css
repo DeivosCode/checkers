@@ -1,16 +1,16 @@
 body {
+    height: 100vh;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-content: center;
+    align-items: center;
 }
 
 .board {
     border: 10px double dodgerblue;
     width: 40%;
-    position: absolute;
-    top: 60px;
 }
 
 .checkers-board {
